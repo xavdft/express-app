@@ -1,0 +1,86 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Word Guessing Game",
+            "description": "A word guessing game built with Javascript.",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://xavdft.github.io/word-guessing-game/",
+            "github_link": "https://github.com/xavdft/word-guessing-game",
+            "image_urls": [
+                "/static/img/word-guessing-game/img2.png",
+                "/static/img/word-guessing-game/img1.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Random Quote Generator",
+            "description": "Used Javascript to build a random quote generator",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://xavdft.github.io/random-quote-generator/",
+            "github_link": "https://github.com/xavdft/random-quote-generator",
+            "image_urls": [
+                "/static/img/random-quote/img1.png",
+                "/static/img/random-quote/img2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Registration Form",
+            "description": "Used Javascript to program an interactive registration form",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript"
+            ],
+            "live_link": "https://xavdft.github.io/interactive-registration-form/",
+            "github_link": "https://github.com/xavdft/interactive-registration-form",
+            "image_urls": [
+                "/static/img/registration-form/img2.png",
+                "/static/img/registration-form/img1.png"
+
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Connect to a public API",
+            "description": "Used Javascript to connect to a public API, displaying employee information",
+            "technologies": [
+                "Html",
+                "CSS",
+                "Javascript",
+                "API"
+            ],
+            "live_link":  "https://xavdft.github.io/connect-to-public-api/",
+            "github_link": "https://github.com/xavdft/connect-to-public-api",
+            "image_urls": [
+                "/static/img/public-api/img2.png",
+                "/static/img/public-api/img1.png"
+
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Data Pagination",
+            "description": "Used Javascript to build out a project that included pagination",
+            "technologies": [
+                "Html",
+                "CSS"
+            ],
+            "live_link": "https://xavdft.github.io/data-pagination/",
+            "github_link": "https://github.com/xavdft/data-pagination",
+            "image_urls": [
+            "/static/img/data-pagination/img2.png",
+            "/static/img/data-pagination/img1.png"
+            ]
+        }
+    ]
+}

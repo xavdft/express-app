@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    //- Heading
+    h1 My Portfolio
+
+    //- Portfolio Description
+    p To give you an idea of my skills, here are some projects I have completed!
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each id in projects
+
+        .cell
+          a(href=`/project/${id.id}` target="_blank")
+            img.thumbnail(src=`${id.image_urls[0]}`, alt=`${id.project_name} thumbnail`)
+            h5 #{id.project_name}
