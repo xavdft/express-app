@@ -19,9 +19,6 @@ app.use(homeRouter);
 app.use('/about', aboutRouter);
 app.use('/project', projectRouter);
 
-
-
-
 // error handlers for 404 and 500 status codes
 app.use((req, res, next) => {
     const err = new Error();
@@ -33,10 +30,12 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.status = 404;
+        console.log("There was an error");
         res.render('error404', err);
     } else {
         err.message = err.message;
         err.status = 500;
+        console.error("There was a server error");
         res.render('error500', err);
     };
 });
